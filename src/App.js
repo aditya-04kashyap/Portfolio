@@ -4,16 +4,17 @@ import SocialLinks from "./components/SocialLinks";
 import About from './components/About'
 import Skills from './components/Skills'
 import Contact from './components/Contact'
+import Project from "./components/Projects";
 
 function App() {
   return (
     <div className="">
-    
       <NavBar />
       <Home />
       <SocialLinks />
-      <About />
       <Skills />
+      <Project />
+      <About />
       <Contact />
     </div>
   );
