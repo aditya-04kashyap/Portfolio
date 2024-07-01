@@ -11,7 +11,7 @@ const Project = () => {
         <p className="text-sky-100 text-xl text-center mb-8">(Click to view Full Project)</p>
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-3">
           {/* Project 1: ListenUp */}
-          <div className="bg-gray-900 rounded-lg overflow-hidden shadow-md shadow-teal-400">
+          <div className="bg-stone-900 rounded-lg overflow-hidden shadow-md hover:scale-105 shadow-teal-400">
             <a href="https://ethnus-project-frontend.vercel.app/" target="_blank" rel="noopener noreferrer">
               <img src={ListenUpImage} alt="ListenUp" className="w-full h-48 object-cover object-center" />
             </a>
@@ -24,7 +24,7 @@ const Project = () => {
           </div>
 
           {/* Project 2: FitConnect */}
-          <div className="bg-gray-900 rounded-lg overflow-hidden shadow-md shadow-teal-400">
+          <div className="bg-stone-900 rounded-lg overflow-hidden shadow-md hover:scale-105 shadow-teal-400">
             <a href="https://fit-connect-delta.vercel.app/" target="_blank" rel="noopener noreferrer">
               <img src={FitConnectImage} alt="FitConnect" className="w-full h-48 object-cover object-center" />
             </a>
@@ -37,7 +37,7 @@ const Project = () => {
           </div>
 
           {/* Project 3: Weather-Whymsi */}
-          <div className="bg-gray-900 rounded-lg overflow-hidden shadow-md shadow-teal-400">
+          <div className="bg-stone-900 rounded-lg overflow-hidden shadow-md hover:scale-105 shadow-teal-400">
             <a href="https://weather-whymsi.vercel.app/" target="_blank" rel="noopener noreferrer">
               <img src={WeatherImage} alt="Weather-Whymsi" className="w-full h-48 object-cover object-center" />
             </a>
@@ -51,7 +51,7 @@ const Project = () => {
         </div>
       </div>
       <div className="text-center mt-8 text-sky-100">
-        Find more exciting projects on my <a href="https://github.com/aditya-04kashyap?tab=repositories" className="text-emerald-400 hover:text-emerald-300">GitHub</a>
+        Find more exciting projects on my <a href="https://github.com/aditya-04kashyap?tab=repositories" className="text-emerald-500 hover:text-emerald-200 ">GitHub</a>
       </div>
     </div>
   );
