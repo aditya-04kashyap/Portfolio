@@ -20,7 +20,7 @@ const SocialLinks = () => {
                 </a>
             </li>
             <li className="flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md bg-slate-950 text-white">
-                <a href="https://drive.google.com/file/d/19FkRxRZYjVtzB7unK_nfOSFQwvIoFN1p/view?usp=sharing" target="_blank" rel="noreferrer" className='flex justify-between items-center w-full'>
+                <a href="https://drive.google.com/file/d/1_-moknCKcEOfpgr5_GzEcflHEFhYBF81/view?usp=sharing" target="_blank" rel="noreferrer" className='flex justify-between items-center w-full'>
                     <>Resume <BsFillPersonLinesFill size={30} />
                     </>
                 </a>
