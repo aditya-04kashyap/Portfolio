@@ -21,7 +21,7 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 py-10 sm:flex-row">
         <div className="text-center sm:text-left sm:flex-1 sm:px-10">
           <h2 className="text-4xl sm:text-6xl font-bold tracking-wider text-emerald-400 pt-28 font-raleway">
-            Hello!
+            Hello KJ!
           </h2>
           <h2 className="text-4xl sm:text-6xl font-bold tracking-wider text-emerald-400 pb-4 pt-5 font-raleway mb-10">
             I am{' '}
